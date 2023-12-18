@@ -10,33 +10,35 @@ body{
     
 }
 .top{
-    
+    box-shadow: 1vw 1vw 1vw black;
     display: flex;
+    border-radius: 1vw;
     
 }
 .logo{
     height: 10vw;
     width: 10vw;
     border-radius: 50%;
-    margin-left: 2vw;
-    margin-top: 1vw;
+    margin-left: 1vw;
     
+    position: relative;
 }
 h1{
     color: white;
     font-family: Luckiest Guy;
-    font-size: 8vw;
-    font-style: normal;
+    font-size: 7vw;
+    /* font-style: normal; */
     font-weight: 400;
     line-height: normal;
-    letter-spacing: 1vw;
-    margin-top: 3vw;
-    margin-left: 5vw;
+    letter-spacing: 1vw;    
+    position: absolute;
+    margin-left: 15vw;
+    margin-top: 2vw;
     
 }
 ul{
     display: flex;
-    
+    margin-left: 35vw;
     list-style-type: none;
 }
 li{
@@ -46,18 +48,20 @@ li{
     font-style: normal;
     font-weight: 300;
     line-height: normal;
-    margin-top: 4vw;
-    margin-left: 5vw;
+    margin-top: 2.9vw;
+    margin-left: 11vw;
     
 }
 .heading{
     display: flex;
-    background-color: rgba(221, 199, 171, 0.567);
+    background-color: rgb(51 74 46 / 83%);
+    box-shadow: 1vw 1vw 1vw black;
     width: 60vw;
     /* height: 50vh; */
     border-radius: 2vw;
-    margin-left: 1vw;
+    /* margin-left: 1vw; */
     position: relative;
+    top: 4vw;
 }
 h4{
     color: white;
@@ -73,20 +77,22 @@ h4{
 .serve{
     width: 55vw;
     height: 40vw;
-    margin-left: 45vw;
-    margin-top: -35vw;
+    margin-left: 43vw;
+    margin-top: -30vw;
+    
 }
 input{
-    width: 300px;
-    height: 40px;
+    width: 25vw;
+    height: 3vw;
     color: black;
     font-family: Luckiest Guy;
-    font-size: 20px;
+    font-size: 2vw;
     font-style: normal;
-    font-weight: 200;
+    font-weight: 100;
     text-align: center;
     background-color: rgb(240, 255, 255);
-    margin-left: 60vh;
-    margin-top: -20vh;
+    margin-left: 35vw;
+    /* margin-top: 5vw; */
     border-radius: 2vh;
+    box-shadow: 1vw 1vw 1vw black;
 }
