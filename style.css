@@ -96,3 +96,54 @@ input{
     border-radius: 2vh;
     box-shadow: 1vw 1vw 1vw black;
 }
+.ranhead{
+    font-size: 4vw;
+    margin-top: 4vw;
+    margin-left: 2vw;
+    box-shadow: 1vw 1vw 1vw black;
+    width: fit-content;
+}
+#random{
+    /* display: flex; */
+    position: relative;
+    margin-top: 10vw;
+    background-color: rgb(51 74 46 / 83%);
+    width: 25vw;
+    box-shadow: 1vw 1vw 1vw black;
+    border-radius: 2vw;
+    margin-left: 37vw;
+    
+}
+.view{
+    color: white;
+    font-family: Luckiest Guy;
+    font-size: 1.5vw;
+    font-style: normal;
+    font-weight: 300;
+    text-align: center;
+    
+}
+.category{
+  text-align: center;
+  font-size: 4vw;
+  /* margin-top: 1vw; */
+  margin-left: 1vw;
+}
+#image{
+    width: 20vw;
+    height: 20vw;
+    border-radius: 50%;
+    box-shadow: 1vw 1vw 1vw black;
+    margin-left: 2vw;
+    margin-top: -2vw;
+    
+}
+.name{
+    color: white;
+    font-family: Luckiest Guy;
+    font-size: 1.5vw;
+    font-style: normal;
+    font-weight: 300;
+    text-align: center;
+    
+}
