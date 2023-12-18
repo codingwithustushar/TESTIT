@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+*{
+    padding: 0px;
+    
+}
+body{
+    background-image: url("./assets/photo-1585773818428-b50bebdc2344.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.top{
+    
+    display: flex;
+    
+}
+.logo{
+    height: 15vh;
+    width: 15vh;
+    border-radius: 50%;
+    margin-left: 2vh;
+    margin-top: 1vh;
+   
+}
+h1{
+    color: white;
+    font-family: Luckiest Guy;
+    font-size: 82px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 8.2px;
+    margin-top: 5vh;
+    margin-left: 10vh;
+    
+}
+ul{
+    display: flex;
+    
+    list-style-type: none;
+}
+li{
+    color: white;
+    font-family: Luckiest Guy;
+    font-size: 3vh;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 5vh;
+    margin-left: 12vh;
+    
+}
+.heading{
+    display: flex;
+    background-color: rgba(221, 199, 171, 0.567);
+    width: 100vh;
+    height: 50vh;
+    border-radius: 2vh;
+    margin-left: 1vh;
+}
+h4{
+    color: white;
+    font-family: Luckiest Guy;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+    margin-top: 3vh;
+    margin-left: 5vh;
+    text-align: left;
+}
+.serve{
+    width: 100vh;
+    height: 60vh;
+    margin-left: 620px;
+    margin-top: -53vh;
+}
+input{
+    width: 300px;
+    height: 40px;
+    color: black;
+    font-family: Luckiest Guy;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 200;
+    text-align: center;
+    background-color: rgb(240, 255, 255);
+    margin-left: 60vh;
+    margin-top: -20vh;
+    border-radius: 2vh;
+}
