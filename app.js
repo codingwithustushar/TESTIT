@@ -1,5 +1,6 @@
 let input = document.getElementById("inputbox");
 
+//fetching the random meal
 async function fetchRandomMeal() {
   try {
     const response = await fetch('https://www.themealdb.com/api/json/v1/1/random.php');
@@ -11,14 +12,16 @@ async function fetchRandomMeal() {
     document.querySelector(".category").innerHTML = meal.strCategory
     document.querySelector("#image").src = meal.strMealThumb
     document.querySelector(".name").innerHTML = meal.strMeal
-    // ${meal.strCategory} ${meal.strMealThumb}  ${meal.strMeal}
-  } catch (error) { 
+  } 
+  
+  catch (error) { 
     console.log(error);
   }
 }
 
 const ingredients_list = document.querySelector("#ingredient-list")
 
+//getting ingredients
 function getIngredientsList(meal) {
   ingredients_list.innerHTML = ""
   let ingredientsList = '';
@@ -33,7 +36,7 @@ function getIngredientsList(meal) {
   
 }
 
-fetchRandomMeal();
+fetchRandomMeal();//calling the function
 
 document.querySelector("#view-btn").addEventListener("click" , ()=>{
   document.querySelector("#modal").style.display = "block"
@@ -43,6 +46,7 @@ document.querySelector("#cross").addEventListener("click" , ()=>{
   document.querySelector("#modal").style.display = "none"
 })
 
+//fetching the searched meal
 async function fetchdata() {
   try {
     let food = input.value;
@@ -63,11 +67,14 @@ async function fetchdata() {
       `;
       dishdetails.appendChild(mealDiv);
     });
-  } catch (error) {
+  } 
+  //if not found giving error
+  catch (error) {
     console.log(error);
   }
 }
 
+//on clicking on input searched meal comes
 input.addEventListener("keypress", function (e) {
   if (e.key == "Enter") {
     fetchdata();

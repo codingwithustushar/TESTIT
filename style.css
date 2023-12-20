@@ -27,7 +27,6 @@ h1{
     color: white;
     font-family: Luckiest Guy;
     font-size: 7vw;
-    /* font-style: normal; */
     font-weight: 400;
     line-height: normal;
     letter-spacing: 1vw;    
@@ -57,9 +56,7 @@ ul li{
     background-color: rgb(51 74 46 / 83%);
     box-shadow: 1vw 1vw 1vw black;
     width: 60vw;
-    /* height: 50vh; */
     border-radius: 2vw;
-    /* margin-left: 1vw; */
     position: relative;
     top: 4vw;
 }
@@ -92,7 +89,6 @@ input{
     text-align: center;
     background-color: rgb(240, 255, 255);
     margin-left: 35vw;
-    /* margin-top: 5vw; */
     border-radius: 2vh;
     box-shadow: 1vw 1vw 1vw black;
 }
@@ -104,7 +100,6 @@ input{
     width: fit-content;
 }
 #random{
-    /* display: flex; */
     position: relative;
     margin-top: 10vw;
     background-color: rgb(51 74 46 / 83%);
@@ -141,7 +136,6 @@ button{
 .category{
   text-align: center;
   font-size: 4vw;
-  /* margin-top: 1vw; */
   margin-left: 1vw;
 }
 #image{
@@ -170,13 +164,12 @@ button{
 
 }
 #dare{
-    /* position: relative; */
     margin-top: 10vw;
     background-color: rgb(51 74 46 / 83%);
     width: 25vw;
     box-shadow: 1vw 1vw 1vw black;
     border-radius: 2vw;
-    /* margin-left: 37vw; */
+  
 
 }
 #image1{
@@ -201,7 +194,6 @@ footer{
     background-size: cover;
     position: relative;
     margin-left: -1vw;
-    /* margin-top: 2vw; */
     width: 100.4vw;
 }
 .foot{
@@ -234,8 +226,8 @@ footer{
 
 #modal{
     padding: 2vw;
-    width: 20vw;
-    height: 20vw;
+    width: 26vw;
+    height: 30vw;
     background-color: rgb(51, 74, 46);
     position: absolute;
     top:0;
@@ -275,7 +267,6 @@ h1{
     color: white;
     font-family: Luckiest Guy;
     font-size: 7vw;
-    /* font-style: normal; */
     font-weight: 400;
     line-height: normal;
     letter-spacing: 1vw;    
@@ -305,9 +296,7 @@ ul li{
     background-color: rgb(51 74 46 / 83%);
     box-shadow: 1vw 1vw 1vw black;
     width: 94vw;
-    /* height: 50vh; */
     border-radius: 2vw;
-    /* margin-left: 1vw; */
     position: relative;
     top: 4vw;
 }
@@ -340,7 +329,6 @@ input{
     text-align: center;
     background-color: rgb(240, 255, 255);
     margin-left: 35vw;
-    /* margin-top: 5vw; */
     border-radius: 2vh;
     box-shadow: 1vw 1vw 1vw black;
 }
@@ -352,7 +340,6 @@ input{
     width: fit-content;
 }
 #random{
-    /* display: flex; */
     position: relative;
     margin-top: 15vw;
     background-color: rgb(51 74 46 / 83%);
@@ -389,7 +376,6 @@ button{
 .category{
   text-align: center;
   font-size: 4vw;
-  /* margin-top: 1vw; */
   margin-left: 1vw;
 }
 #image{
@@ -419,12 +405,10 @@ button{
     margin-top: 8vw;
 }
 #dare{
-       /* position: relative; */
        margin-top: 5vw;
        width: 37vw;
        box-shadow: 1vw 1vw 1vw black;
        border-radius: 2vw;
-       /* margin-left: 37vw; */
        height: 42vw;
 
 
@@ -452,7 +436,6 @@ footer{
     background-size: cover;
     position: relative;
     margin-left: -3vw;
-    /* margin-top: 2vw; */
     width: 101.4vw;
 }
 .foot{
