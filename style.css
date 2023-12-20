@@ -41,7 +41,7 @@ ul{
     margin-left: 35vw;
     list-style-type: none;
 }
-li{
+ul li{
     color: white;
     font-family: Luckiest Guy;
     font-size: 2vw;
@@ -225,6 +225,30 @@ footer{
     margin-bottom: -2vw;
 }
 
+#cross{
+    width: 1vw;
+    position: relative;
+    left: 100px;
+    cursor: pointer;
+}
+
+#modal{
+    padding: 2vw;
+    width: 20vw;
+    height: 20vw;
+    background-color: rgb(51, 74, 46);
+    position: absolute;
+    top:0;
+    left:0;
+    box-shadow: 0 0 0 1000px rgba(0, 0, 0, 0.621);
+    display: none;
+    border-radius: 10px;
+    color: white;
+}
+#modal div{
+    font-size: 1.5vw;
+}
+
 @media(max-width:768px) {
    
 body{
@@ -265,7 +289,7 @@ ul{
     margin-left: 35vw;
     list-style-type: none;
 }
-li{
+ul li{
     color: white;
     font-family: Luckiest Guy;
     font-size: 4vw;
@@ -387,11 +411,12 @@ button{
     
 }
 
+
 #dish{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-
+    margin-top: 8vw;
 }
 #dare{
        /* position: relative; */
@@ -450,8 +475,33 @@ footer{
 .foot p{
     margin-bottom: -2vw;
 }
-    
+   
+#modal{
+    width: 50vw;
+    height: 70vw;
+    top: -60vw;
+    left: -10vw;
+    overflow: auto;
 }
-
+#modal div{
+    font-size: 5vw;
+}
+#ingredient-list li{
+    font-size: 2vw;
+}
+#cross{
+    left: 11vw;
+    width: 5vw;
+}
+.serve{
+    display: none;
+}
+.heading{
+    margin-bottom: 20vw;
+}
+#view-btn{
+    margin-bottom: 15vw;
+}
+}
 
 

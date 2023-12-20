@@ -7,31 +7,41 @@ async function fetchRandomMeal() {
 
     const meal = data.meals[0];
     console.log(meal);
-
-    const mealDetails = document.getElementById('random');
-    mealDetails.innerHTML += `
-      <h4 class="category">${meal.strCategory}</h4>
-      <img src="${meal.strMealThumb}" id="image"/>
-      <h3 class="name">${meal.strMeal} </h3>
-   
-    `;
+    getIngredientsList(meal)
+    document.querySelector(".category").innerHTML = meal.strCategory
+    document.querySelector("#image").src = meal.strMealThumb
+    document.querySelector(".name").innerHTML = meal.strMeal
+    // ${meal.strCategory} ${meal.strMealThumb}  ${meal.strMeal}
   } catch (error) { 
     console.log(error);
   }
 }
-// function getIngredientsList(meal) {
-//   let ingredientsList = '';
-//   for (let i = 1; i <= 20; i++) {
-//     const ingredient = meal[`strIngredient${i}`];
-//     const measure = meal[`strMeasure${i}`];
-//     if (ingredient && measure) {
-//       ingredientsList += `<li>${measure} ${ingredient}</li>`;
-//     }
-//   }
-//   return ingredientsList;
-// }
+
+const ingredients_list = document.querySelector("#ingredient-list")
+
+function getIngredientsList(meal) {
+  ingredients_list.innerHTML = ""
+  let ingredientsList = '';
+  for (let i = 1; i <= 20; i++) {
+    const ingredient = meal[`strIngredient${i}`];
+    const measure = meal[`strMeasure${i}`];
+    if (ingredient && measure) {
+      ingredientsList += `<li>${measure} ${ingredient}</li>`;
+    }
+  }
+  ingredients_list.innerHTML = ingredientsList
+  
+}
 
 fetchRandomMeal();
+
+document.querySelector("#view-btn").addEventListener("click" , ()=>{
+  document.querySelector("#modal").style.display = "block"
+})
+
+document.querySelector("#cross").addEventListener("click" , ()=>{
+  document.querySelector("#modal").style.display = "none"
+})
 
 async function fetchdata() {
   try {
