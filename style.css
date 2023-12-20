@@ -126,6 +126,7 @@ button{
     text-align: center;
     border-radius: 1vw;
     background-color: rgb(211 157 157 / 83%);
+    margin-top: 2vw;
 }
 
 .view{
@@ -195,9 +196,262 @@ button{
     text-align: center;
 }
 
-/* footer{
+footer{
     background-color: black;
     background-size: cover;
-    height: 100%;
-} */
+    position: relative;
+    margin-left: -1vw;
+    /* margin-top: 2vw; */
+    width: 100.4vw;
+}
+.foot{
+    color: white;
+    font-family: Luckiest Guy;
+    font-size: 2.5vw;
+    font-style: normal;
+    font-weight: 300;
+    text-align: center;
+    height: 6vw;
+    position: absolute;
+}
+.footlogo{
+    height: 10vw;
+    width: 10vw;
+    border-radius: 50%;
+    margin-top: 2vw;
+
+}
+.foot p{
+    margin-bottom: -2vw;
+}
+
+@media(max-width:768px) {
+   
+body{
+    background-image: url("./assets/photo-1585773818428-b50bebdc2344.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.top{
+    box-shadow: 1vw 1vw 1vw black;
+    display: flex;
+    border-radius: 1vw;
+    
+}
+.logo{
+    height: 12vw;
+    width: 12vw;
+    border-radius: 50%;
+    margin-left: 1vw;
+    margin-top: 2vw;
+    position: relative;
+}
+h1{
+    color: white;
+    font-family: Luckiest Guy;
+    font-size: 7vw;
+    /* font-style: normal; */
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1vw;    
+    position: absolute;
+    margin-left: 15vw;
+    margin-top: 5vw;
+    
+}
+ul{
+    display: flex;
+    margin-left: 35vw;
+    list-style-type: none;
+}
+li{
+    color: white;
+    font-family: Luckiest Guy;
+    font-size: 4vw;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-top: 2.9vw;
+    margin-left: 3vw;
+    
+}
+.heading{
+    display: flex;
+    background-color: rgb(51 74 46 / 83%);
+    box-shadow: 1vw 1vw 1vw black;
+    width: 94vw;
+    /* height: 50vh; */
+    border-radius: 2vw;
+    /* margin-left: 1vw; */
+    position: relative;
+    top: 4vw;
+}
+h4{
+    color: white;
+    font-family: Luckiest Guy;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+    margin-top: 3vh;
+    margin-left: 5vh;
+    text-align: left;
+}
+.serve{
+    width: 55vw;
+    height: 40vw;
+    margin-left: 43vw;
+    margin-top: -25vw;
+    
+}
+input{
+    width: 29vw;
+    height: 5vw;
+    color: black;
+    font-family: Luckiest Guy;
+    font-size: 4vw;
+    font-style: normal;
+    font-weight: 100;
+    text-align: center;
+    background-color: rgb(240, 255, 255);
+    margin-left: 35vw;
+    /* margin-top: 5vw; */
+    border-radius: 2vh;
+    box-shadow: 1vw 1vw 1vw black;
+}
+.ranhead{
+    font-size: 5vw;
+    margin-top: 6vw;
+    margin-left: 2vw;
+    box-shadow: 0vw 0vw 4vw 0.7vw black;
+    width: fit-content;
+}
+#random{
+    /* display: flex; */
+    position: relative;
+    margin-top: 15vw;
+    background-color: rgb(51 74 46 / 83%);
+    width: 25vw;
+    box-shadow: 1vw 1vw 1vw black;
+    border-radius: 2vw;
+    margin-left: 37vw;
+    
+}
+button{
+    margin-left: 38vw;
+    width: 24vw;
+    height: 7vw;
+    color: black;
+    font-family: Luckiest Guy;
+    font-size: 3.5vw;
+    font-style: normal;
+    font-weight: 300;
+    text-align: center;
+    border-radius: 1vw;
+    background-color: rgb(211 157 157 / 83%);
+    margin-top: 2vw;
+}
+
+.view{
+    color: white;
+    font-family: Luckiest Guy;
+    font-size: 1.5vw;
+    font-style: normal;
+    font-weight: 300;
+    text-align: center;
+    
+}
+.category{
+  text-align: center;
+  font-size: 4vw;
+  /* margin-top: 1vw; */
+  margin-left: 1vw;
+}
+#image{
+    width: 20vw;
+    height: 20vw;
+    border-radius: 50%;
+    box-shadow: 1vw 1vw 1vw black;
+    margin-left: 2vw;
+    margin-top: -2vw;
+    
+}
+.name{
+    color: white;
+    font-family: Luckiest Guy;
+    font-size: 1.5vw;
+    font-style: normal;
+    font-weight: 300;
+    text-align: center;
+    
+}
+
+#dish{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+#dare{
+       /* position: relative; */
+       margin-top: 5vw;
+       width: 37vw;
+       box-shadow: 1vw 1vw 1vw black;
+       border-radius: 2vw;
+       /* margin-left: 37vw; */
+       height: 42vw;
+
+
+}
+#image1{
+    width: 20vw;
+    height: 20vw;
+    border-radius: 50%;
+    box-shadow: 1vw 1vw 1vw black;
+    margin-left: 9vw;
+    margin-top: 1vw;
+}
+.mealname{
+    color: white;
+    font-family: Luckiest Guy;
+    font-size: 3.5vw;
+    font-style: normal;
+    font-weight: 300;
+    text-align: center;
+    margin-left: 1vw;
+}
+
+footer{
+    background-color: black;
+    background-size: cover;
+    position: relative;
+    margin-left: -3vw;
+    /* margin-top: 2vw; */
+    width: 101.4vw;
+}
+.foot{
+    color: white;
+    font-family: Luckiest Guy;
+    font-size: 2.5vw;
+    font-style: normal;
+    font-weight: 300;
+    text-align: center;
+    height: 6vw;
+    position: absolute;
+}
+.footlogo{
+    height: 10vw;
+    width: 10vw;
+    border-radius: 50%;
+    margin-top: 2vw;
+
+}
+.foot p{
+    margin-bottom: -2vw;
+}
+    
+}
+
+
 

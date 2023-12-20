@@ -13,11 +13,23 @@ async function fetchRandomMeal() {
       <h4 class="category">${meal.strCategory}</h4>
       <img src="${meal.strMealThumb}" id="image"/>
       <h3 class="name">${meal.strMeal} </h3>
+   
     `;
-  } catch (error) {
+  } catch (error) { 
     console.log(error);
   }
 }
+// function getIngredientsList(meal) {
+//   let ingredientsList = '';
+//   for (let i = 1; i <= 20; i++) {
+//     const ingredient = meal[`strIngredient${i}`];
+//     const measure = meal[`strMeasure${i}`];
+//     if (ingredient && measure) {
+//       ingredientsList += `<li>${measure} ${ingredient}</li>`;
+//     }
+//   }
+//   return ingredientsList;
+// }
 
 fetchRandomMeal();
 
